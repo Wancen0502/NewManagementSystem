@@ -1,0 +1,21 @@
+.steps-container{
+    padding-top:2rem;
+}
+
+.btn-container{
+    padding-top:2rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.save-btn{
+    margin-right:0.5rem;
+}
+
+.active{
+    display:none;
+}
+
+.Form{
+    padding-top:2rem;
+}

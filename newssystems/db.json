@@ -1,0 +1,575 @@
+{
+  "children": [
+    {
+      "id": "3",
+      "label": "Add User",
+      "title": "Add User",
+      "rightId": "2",
+      "key": "/user-manage/add",
+      "grade": 2
+    },
+    {
+      "id": "4",
+      "label": "Delete User",
+      "title": "Delete User",
+      "rightId": "2",
+      "key": "/user-manage/delete",
+      "grade": 2
+    },
+    {
+      "id": "5",
+      "label": "Modify User",
+      "title": "Modify User",
+      "rightId": "2",
+      "key": "/user-manage/update",
+      "grade": 2
+    },
+    {
+      "id": "6",
+      "label": "User List",
+      "title": "User List",
+      "rightId": "2",
+      "key": "/user-manage/list",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "8",
+      "label": "Roles List",
+      "title": "Roles List",
+      "rightId": "7",
+      "key": "/right-manage/role/list",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "9",
+      "label": "Access Right List",
+      "title": "Access Right List",
+      "rightId": "7",
+      "key": "/right-manage/right/list",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "10",
+      "label": "Change Role",
+      "title": "Change Role",
+      "rightId": "7",
+      "key": "/right-manage/role/update",
+      "grade": 2
+    },
+    {
+      "id": "11",
+      "label": "Delete Role",
+      "title": "Delete Role",
+      "rightId": "7",
+      "key": "/right-manage/role/delete",
+      "grade": 2
+    },
+    {
+      "id": "12",
+      "label": "Change Right",
+      "title": "Change Right",
+      "rightId": "7",
+      "key": "/right-manage/right/update",
+      "grade": 2
+    },
+    {
+      "id": "13",
+      "label": "Delete Right",
+      "title": "Delete Right",
+      "rightId": "7",
+      "key": "/right-manage/right/delete",
+      "grade": 2
+    },
+    {
+      "id": "15",
+      "label": "News List",
+      "title": "News List",
+      "rightId": "14",
+      "key": "/news-manage/list",
+      "grade": 2
+    },
+    {
+      "id": "16",
+      "label": "Draft News",
+      "title": "Draft News",
+      "rightId": "14",
+      "key": "/news-manage/add",
+      "grade": 2,
+      "pagepermisson": 1
+    },
+    {
+      "id": "17",
+      "label": "Update News",
+      "title": "Update News",
+      "rightId": "14",
+      "key": "/news-manage/update/:id",
+      "grade": 2,
+      "routepermisson": 1
+    },
+    {
+      "id": "18",
+      "label": "Preview News",
+      "title": "Preview News",
+      "rightId": "14",
+      "key": "/news-manage/preview/:id",
+      "grade": 2,
+      "routepermisson": 1
+    },
+    {
+      "id": "19",
+      "label": "Draft Box",
+      "title": "Draft Box",
+      "rightId": "14",
+      "key": "/news-manage/draft",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "20",
+      "label": "Classtify News",
+      "title": "Classtify News",
+      "rightId": "14",
+      "key": "/news-manage/category",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "22",
+      "label": "Censor News",
+      "title": "Censor News",
+      "rightId": "21",
+      "key": "/audit-manage/audit",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "23",
+      "label": "Censor List",
+      "title": "Censor List",
+      "rightId": "21",
+      "key": "/audit-manage/list",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "25",
+      "label": "To Be Released",
+      "title": "To Be Released",
+      "rightId": "24",
+      "key": "/publish-manage/unpublished",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "26",
+      "label": "Released",
+      "title": "Released",
+      "rightId": "24",
+      "key": "/publish-manage/published",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": "27",
+      "label": "Offline",
+      "title": "Offline",
+      "rightId": "24",
+      "key": "/publish-manage/sunset",
+      "pagepermisson": 1,
+      "grade": 2
+    }
+  ],
+  "rights": [
+    {
+      "id": "1",
+      "label": "Home",
+      "title": "Home",
+      "key": "/home",
+      "pagepermisson": 1,
+      "grade": 1
+    },
+    {
+      "id": "2",
+      "label": "User Management",
+      "title": "User Management",
+      "key": "/user-manage",
+      "pagepermisson": 1,
+      "grade": 1
+    },
+    {
+      "id": "7",
+      "label": "Authorization Management",
+      "title": "Authorization Management",
+      "key": "/right-manage",
+      "pagepermisson": 1,
+      "grade": 1
+    },
+    {
+      "id": "14",
+      "label": "News Management",
+      "title": "News Management",
+      "key": "/news-manage",
+      "pagepermisson": 1,
+      "grade": 1
+    },
+    {
+      "id": "21",
+      "label": "Censor Management",
+      "title": "Censor Management",
+      "key": "/audit-manage",
+      "pagepermisson": 1,
+      "grade": 1
+    },
+    {
+      "id": "24",
+      "label": "Publish Management",
+      "title": "Publish Management",
+      "key": "/publish-manage",
+      "pagepermisson": 1,
+      "grade": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": 123,
+      "roleState": true,
+      "default": true,
+      "region": "",
+      "roleId": "1",
+      "role": "Manager"
+    },
+    {
+      "id": "4",
+      "username": "joe",
+      "password": "qqq",
+      "roleState": true,
+      "default": false,
+      "region": "",
+      "roleId": "1",
+      "role": "Manager"
+    },
+    {
+      "id": "2",
+      "username": "Emily Carter",
+      "password": "123",
+      "roleState": true,
+      "default": false,
+      "region": "Asia",
+      "roleId": "2",
+      "role": "Regional Senior Editor"
+    },
+    {
+      "username": "Liam Anderson",
+      "password": "123",
+      "roleState": true,
+      "default": false,
+      "region": "Europe",
+      "roleId": "2",
+      "id": "3",
+      "role": "Regional Senior Editor"
+    },
+    {
+      "username": "test",
+      "password": "123",
+      "roleState": true,
+      "default": false,
+      "region": "",
+      "roleId": "1",
+      "id": "9",
+      "role": "Manager"
+    },
+    {
+      "username": "Sophia Bennett",
+      "password": "123",
+      "roleState": true,
+      "default": false,
+      "region": "North America",
+      "roleId": "3",
+      "id": "5",
+      "role": "Editor"
+    },
+    {
+      "username": "Noah Mitchell",
+      "password": "123",
+      "roleState": true,
+      "default": false,
+      "region": "North America",
+      "roleId": "3",
+      "id": "6",
+      "role": "Editor"
+    },
+    {
+      "username": "Olivia Taylor",
+      "password": "123",
+      "roleState": true,
+      "default": false,
+      "region": "Asia",
+      "roleId": "3",
+      "id": "7",
+      "role": "Editor"
+    },
+    {
+      "username": "Ethan Brooks",
+      "password": "123",
+      "roleState": true,
+      "default": false,
+      "region": "South America",
+      "roleId": "3",
+      "id": "8",
+      "role": "Editor"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "roleName": "Manager",
+      "roleType": "1",
+      "pagepermisson": 1,
+      "rights": [
+        "/user-manage",
+        "/user-manage/add",
+        "/user-manage/delete",
+        "/user-manage/update",
+        "/user-manage/list",
+        "/right-manage",
+        "/right-manage/role/list",
+        "/right-manage/right/list",
+        "/right-manage/role/update",
+        "/right-manage/role/delete",
+        "/right-manage/right/update",
+        "/right-manage/right/delete",
+        "/news-manage",
+        "/news-manage/list",
+        "/news-manage/add",
+        "/news-manage/update/:id",
+        "/news-manage/preview/:id",
+        "/news-manage/draft",
+        "/news-manage/category",
+        "/audit-manage",
+        "/audit-manage/audit",
+        "/audit-manage/list",
+        "/publish-manage/published",
+        "/home",
+        "/publish-manage",
+        "/publish-manage/unpublished",
+        "/publish-manage/sunset"
+      ]
+    },
+    {
+      "id": "2",
+      "roleName": "Regional Senior Editor",
+      "roleType": 2,
+      "pagepermisson": 1,
+      "rights": [
+        "/home",
+        "/user-manage",
+        "/user-manage/add",
+        "/user-manage/delete",
+        "/user-manage/update",
+        "/user-manage/list",
+        "/news-manage",
+        "/news-manage/list",
+        "/news-manage/add",
+        "/news-manage/update/:id",
+        "/news-manage/preview/:id",
+        "/news-manage/draft",
+        "/news-manage/category",
+        "/audit-manage",
+        "/audit-manage/audit",
+        "/audit-manage/list",
+        "/publish-manage",
+        "/publish-manage/unpublished",
+        "/publish-manage/published",
+        "/publish-manage/sunset"
+      ]
+    },
+    {
+      "id": "3",
+      "roleName": "Editor",
+      "roleType": 3,
+      "pagepermisson": 1,
+      "rights": [
+        "/home",
+        "/news-manage",
+        "/news-manage/list",
+        "/news-manage/add",
+        "/news-manage/update/:id",
+        "/news-manage/preview/:id",
+        "/news-manage/draft",
+        "/audit-manage",
+        "/audit-manage/list",
+        "/publish-manage",
+        "/publish-manage/unpublished",
+        "/publish-manage/published",
+        "/publish-manage/sunset"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "1",
+      "label": "Asia",
+      "value": "Asia"
+    },
+    {
+      "id": "2",
+      "label": "Europe",
+      "value": "Europe"
+    },
+    {
+      "id": "3",
+      "label": "North America",
+      "value": "North America"
+    },
+    {
+      "id": "4",
+      "label": "South America",
+      "value": "South America"
+    },
+    {
+      "id": "5",
+      "label": "Africa",
+      "value": "Africa"
+    },
+    {
+      "id": "6",
+      "label": "Australia",
+      "value": "Australia"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "title": "Current News",
+      "value": "Current News"
+    },
+    {
+      "id": "2",
+      "title": "Global Economy",
+      "value": "Global Economy"
+    },
+    {
+      "id": "3",
+      "title": "Technology Science",
+      "value": "Technology Science"
+    },
+    {
+      "id": "4",
+      "title": "Military News",
+      "value": "Military News"
+    },
+    {
+      "id": "5",
+      "title": "Sports News",
+      "value": "Sports News"
+    },
+    {
+      "id": "6",
+      "title": "Life News",
+      "value": "Life News"
+    }
+  ],
+  "news": [
+    {
+      "title": "The title of the news",
+      "categoryId": "3",
+      "category": "Technology Science",
+      "content": "<p style=\"text-align: center;\"><span style=\"color: rgb(247, 89, 171); background-color: rgb(255, 163, 158); font-size: 48px;\">全球新闻发布管理系统</span></p>",
+      "region": "",
+      "author": "admin",
+      "roleId": 1,
+      "auditState": 2,
+      "publishState": 2,
+      "createTime": 1615777743864,
+      "star": 1002,
+      "view": 2036,
+      "id": "1",
+      "publishTime": 1615778496314
+    },
+    {
+      "title": "Components and Props",
+      "categoryId": "4",
+      "category": "Military News",
+      "content": "<p style=\"text-align:start;\"><span style=\"color: rgb(109,109,109);font-size: 18px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. This page provides an introduction to the idea of components. You can find a</span> <a href=\"https://reactjs.org/docs/react-component.html\" target=\"_self\"><span style=\"color: rgb(26,26,26);background-color: rgba(187,239,253,0.3);font-size: 18px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">detailed component API reference here</span></a><span style=\"color: rgb(109,109,109);font-size: 18px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.</span></p>\n<h2 style=\"text-align:start;\"><br> <span style=\"color: rgb(0,0,0);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Let’s recap what happens in this example:</span></h2>\n<ol>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">We call</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>ReactDOM.render()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">with the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>&lt;Welcome name=\"Sara\" /&gt;</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">element.</span></li>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">React calls the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Welcome</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">component with</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>{name: 'Sara'}</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">as the props.</span></li>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Our</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Welcome</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">component returns a</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>&lt;h1&gt;Hello, Sara&lt;/h1&gt;</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">element as the result.</span></li>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">React DOM efficiently updates the DOM to match</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>&lt;h1&gt;Hello, Sara&lt;/h1&gt;</code>.</span></li>\n</ol>\n<blockquote style=\"text-align:start;\"></blockquote>\n<p style=\"margin-left:0px;\"><span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><strong>Note:</strong></span> <span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Always start component names with a capital letter.</span></p>\n<p style=\"margin-left:0px;\"><span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">React treats components starting with lowercase letters as DOM tags. For example,</span> <span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>&lt;div /&gt;</code></span> <span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">represents an HTML div tag, but</span> <span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>&lt;Welcome /&gt;</code></span> <span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">represents a component and requires</span> <span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Welcome</code></span> <span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">to be in scope.</span></p>\n<p style=\"margin-left:0px;\"><span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">To learn more about the reasoning behind this convention, please read</span> <a href=\"https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized\" target=\"_self\"><span style=\"color: rgb(26,26,26);background-color: rgba(187,239,253,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">JSX In Depth</span></a><span style=\"color: rgb(0,0,0);background-color: rgba(255,229,100,0.3);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">.</span></p>\n<h2 style=\"text-align:start;\"><br>&nbsp;</h2>\n",
+      "region": "",
+      "author": "admin",
+      "roleId": 1,
+      "auditState": 2,
+      "publishState": 2,
+      "createTime": 1615778777924,
+      "star": 100,
+      "view": 202,
+      "id": "5",
+      "publishTime": 1615778914498
+    },
+    {
+      "title": "State and Lifecycle",
+      "categoryId": "4",
+      "category": "Military News",
+      "content": "<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Now the clock ticks every second.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Let’s quickly recap what’s going on and the order in which the methods are called:</span></p>\n<ol>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">When</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>&lt;Clock /&gt;</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">is passed to</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>ReactDOM.render()</code>, React calls the constructor of the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">component. Since</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">needs to display the current time, it initializes</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>this.state</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">with an object including the current time. We will later update this state.</span></li>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">React then calls the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">component’s</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>render()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">method. This is how React learns what should be displayed on the screen. React then updates the DOM to match the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code>’s render output.</span></li>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">When the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">output is inserted in the DOM, React calls the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>componentDidMount()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">lifecycle method. Inside it, the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">component asks the browser to set up a timer to call the component’s</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>tick()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">method once a second.</span></li>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Every second the browser calls the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>tick()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">method. Inside it, the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">component schedules a UI update by calling</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>setState()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">with an object containing the current time. Thanks to the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>setState()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">call, React knows the state has changed, and calls the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>render()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">method again to learn what should be on the screen. This time,</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>this.state.date</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">in the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>render()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">method will be different, and so the render output will include the updated time. React updates the DOM accordingly.</span></li>\n<li style=\"margin-left:0px;\"><span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">If the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>Clock</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">component is ever removed from the DOM, React calls the</span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>componentWillUnmount()</code></span> <span style=\"color: rgb(26,26,26);font-size: medium;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">lifecycle method so the timer is stopped.</span></li>\n</ol>\n<h2 style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Using State Correctly</span></h2>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">There are three things you should know about</span> <span style=\"color: rgb(0,0,0);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\"><code>setState()</code>.</span></p>\n<h3 style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">Do Not Modify State Directly</span></h3>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);font-size: 17px;font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">For example, this will not re-render a component:</span></p>\n<p style=\"text-align:start;\"><br>&nbsp;</p>\n",
+      "region": "",
+      "author": "admin",
+      "roleId": 1,
+      "auditState": 2,
+      "publishState": 2,
+      "createTime": 1615778808893,
+      "star": 307,
+      "view": 472,
+      "id": "6",
+      "publishTime": 1739750911149
+    },
+    {
+      "id": "51cc",
+      "title": "Test News",
+      "categoryId": "4",
+      "category": "Military News",
+      "content": "<p>It is a piece of news using for test.</p>\n",
+      "region": "",
+      "author": "admin",
+      "roleId": "1",
+      "auditState": 3,
+      "publishState": 0,
+      "createTime": 1738707141946,
+      "star": 0,
+      "view": 0,
+      "publishTime": 1739750911149
+    },
+    {
+      "id": "b87a",
+      "title": "Test News 3",
+      "categoryId": "1",
+      "category": "Current News",
+      "content": "<p>This is a piece of current news</p>\n",
+      "region": "",
+      "author": "admin",
+      "roleId": "1",
+      "auditState": 2,
+      "publishState": 2,
+      "createTime": 1739155631471,
+      "star": 9999,
+      "view": 702,
+      "publishTime": 1739750911149
+    },
+    {
+      "id": "bcb1",
+      "title": "Test new drafted by Noah Mitchell",
+      "categoryId": "6",
+      "category": "Life News",
+      "content": "<p>This is a piece of test news drafted by Noah Mitchell</p>\n",
+      "region": "North America",
+      "author": "Noah Mitchell",
+      "roleId": "3",
+      "auditState": 2,
+      "publishState": 2,
+      "createTime": 1739255374723,
+      "star": 0,
+      "view": 4,
+      "publishTime": 1739750911149
+    }
+  ]
+}

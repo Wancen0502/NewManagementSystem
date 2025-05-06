@@ -1,0 +1,44 @@
+{
+  "name": "newssystems",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/pro-components": "^2.8.4",
+    "@reduxjs/toolkit": "^2.5.1",
+    "antd": "^5.23.0",
+    "axios": "^1.7.9",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "echarts": "^5.6.0",
+    "html-to-draftjs": "^1.5.0",
+    "http-proxy-middleware": "^3.0.3",
+    "json-server": "^1.0.0-beta.3",
+    "moment": "^2.30.1",
+    "nprogress": "^0.2.0",
+    "react-dom": "^18.3.1",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-particles": "^2.12.2",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.1",
+    "tsparticles-slim": "^2.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "vite": "^5.4.10"
+  }
+}
